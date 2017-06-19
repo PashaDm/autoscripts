@@ -1,0 +1,35 @@
+{
+  "title": "Login",
+  "customFields": [
+    {
+      "component": "input",
+      "type": "text",
+      "name": "userName",
+      "label": "Username field",
+      "default": "userme3",
+      "validation": {
+        "min": 5,
+        "max": 25
+      }
+    },
+
+    {
+      "component": "input",
+      "type": "text",
+      "name": "password",
+      "label": "Password field",
+      "default": "password1",
+      "validation": {
+        "min": 5,
+        "max": 25
+      }
+    },
+
+    {
+      "component": "checkbox",
+      "name": "rememberMe",
+      "label": "Remember me?",
+      "checked": false
+    }
+  ]
+}

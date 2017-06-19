@@ -1,0 +1,17 @@
+{
+  "title": "Withdraw-with-VISA",
+  "customFields": [
+    {
+      "component": "input",
+      "type": "text",
+      "name": "amount",
+      "label": "Withdraw amount",
+      "default": "20",
+      "validation": {
+        "min": 20,
+        "max": 2000
+      }
+    }
+
+  ]
+}

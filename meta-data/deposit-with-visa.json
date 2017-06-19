@@ -1,0 +1,17 @@
+{
+  "title": "Deposit-with-VISA",
+  "customFields": [
+    {
+      "component": "input",
+      "type": "text",
+      "name": "amount",
+      "label": "Deposit amount",
+      "default": "50",
+      "validation": {
+        "min": 10,
+        "max": 30000
+      }
+    }
+
+  ]
+}

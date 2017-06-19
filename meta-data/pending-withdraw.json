@@ -1,0 +1,17 @@
+{
+  "title": "Pendind withdraw MODIFIED",
+  "customFields": [
+    {
+      "component": "input",
+      "type": "text",
+      "name": "amount",
+      "label": "Withdraw amount",
+      "default": "20",
+      "validation": {
+        "min": 10,
+        "max": 20000,
+        "regexp": "^[a-zA-Z0-9]+$"
+      }
+    }
+  ]
+}

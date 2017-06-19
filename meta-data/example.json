@@ -1,0 +1,107 @@
+{
+  "title": "Login",
+  "customFields": [
+    {
+      "component": "input",
+      "type": "text",
+      "name": "login",
+      "label": "Login field",
+      "default": "Username",
+      "validation": {
+        "min": 5,
+        "max": 25,
+        "regexp": "^[a-zA-Z0-9]+$"
+      }
+    },
+
+    {
+      "component": "input",
+      "type":"tel",
+      "name": "phone",
+      "label": "Phone Number",
+      "default": "+380",
+      "validation": {
+        "regexp": "^[+]{1}380[0-9]{9}$"
+      }
+    },
+
+    {
+      "component": "checkbox",
+      "name": "isAdmin",
+      "label": "Is admin?",
+      "checked": false
+    },
+
+    {
+      "component": "checkbox",
+      "name": "movie2",
+      "label": "What movies do you like?",
+      "group": [
+        { "label": "Comedy", "checked": true  },
+        { "label": "Horror", "checked": false},
+        { "label": "Fantasy", "checked": true  },
+        { "label": "Science fiction"  }
+      ],
+      "description": "This is small text under the field"
+    },
+
+    {
+      "component": "radio",
+      "name": "isPlayFootball",
+      "label": "Do you play in a football?",
+      "checked": true,
+      "description": "This is small text under the field"
+    },
+
+    {
+      "component": "radio",
+      "name": "movie",
+      "label": "What movies do you like?",
+      "group": [
+        { "label": "Comedy", "checked": true  },
+        { "label": "Science fiction"  }
+      ],
+      "description": "This is small text under the field"
+    },
+
+    {
+      "component": "select",
+      "name": "platform",
+      "label": "Please select a platform",
+      "options": [
+        {"text": "mobile"},
+        {"text": "tablet", "selected": true}
+      ]
+    },
+
+    {
+      "component": "select",
+      "name": "devices",
+      "label": "Please select a device",
+      "groups": [
+        {"label": "mobile", "options": [
+          {"text":"iphone 6"},
+          {"text":"asus zenfone 5", "selected":true}
+        ]}
+      ]
+    },
+
+    {
+      "component": "switch",
+      "name": "agree",
+      "label": "Do you agree with requirements?",
+      "checked": false,
+      "actionText": {
+        "on": "Yes",
+        "off": "No"
+      }
+    },
+
+    {
+      "component": "switch",
+      "name": "agree2",
+      "label": "Do you agree with requirements?",
+      "checked": true
+    }
+  ]
+}
