@@ -24,6 +24,7 @@ define(['./utils/ui/logout/logout'], function (logoutHelper) {
             });
 
             task.afterAll(function (done) {
+                var isDesktop = document.querySelector('html.desktop');
                 if (isDesktop) {
                     task.ui
                     .click('.main-header__logo')

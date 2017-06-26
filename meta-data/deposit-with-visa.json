@@ -6,7 +6,7 @@
       "type": "text",
       "name": "amount",
       "label": "Deposit amount",
-      "default": "50",
+      "default": "250",
       "validation": {
         "min": 10,
         "max": 30000

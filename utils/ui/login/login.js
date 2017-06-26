@@ -1,7 +1,7 @@
 define([], function() {
     // TODO: Export to JSON
-    var username = 'userme4';
-    var password = 'password1';
+    var username = 'krakentest';
+    var password = 'Password1';
     return {
         login: function(task, done) {
             var acceptTC = false;

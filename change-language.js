@@ -32,7 +32,7 @@ define(['./utils/ui/logout/logout'], function (logoutHelper) {
                             closePopup(task);
                         }
                     })
-                    .end(done);
+                    logoutHelper.logout(task, done);
             });
 
             task.afterAll(function (done) {
