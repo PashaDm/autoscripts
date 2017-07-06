@@ -18,10 +18,11 @@ define(function () {
                 /*casinoMenuItem = !!(document.querySelector('[href="/casino"]'));
                 if (casinoMenuItem) {*/
                     task.ui
-                        .pause(7000)
-                        .click('a[href="/slots"]')
-                        .waitForElement('.fn-games')
-                        .end(done);
+                        .pause(5000)
+                         .waitForElement('a[href="/casino"]')
+                         .click('a[href="/casino"]')
+                         .waitForElement('.fn-games')
+                         .end(done);
                 //}
                 //done();
             });
